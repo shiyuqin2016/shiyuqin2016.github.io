@@ -168,6 +168,7 @@
 
     );
     </script>
+    
     <!-- 以下三个js文件为获取微博内容所需 -->
     <script src="http://news.sina.com.cn/js/87/20110714/205/sinalib.js"></script>
     <script src="http://news.sina.com.cn/js/268/2011/1110/16/weibo-all.js"></script>
@@ -184,7 +185,7 @@
         data: {
             keyword: '国家安全教育',
             page: 1,
-            pagesize: 9
+            pagesize: 10
         },
         onsuccess: function(data) {
             list2.reset(data);
@@ -198,6 +199,7 @@
         },
         onfailure: function(status) {}
     });
+    
     </script>
 </body>
 
